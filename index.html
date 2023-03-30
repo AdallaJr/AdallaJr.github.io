@@ -1,32 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      .container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-}
-
-.container-item {
-  border: 2px solid black;
-  height: 40vh;
-}
-body {
-  font-family: sans-serif;
-  text-align: center;
-}
-
-header {
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 48px;
-  padding: 10%;
-}
-
-    </style>
+    <link rel="stylesheet" href="styles/main.css">
     <title>Homepage</title>
   </head>
   <body>
@@ -36,10 +11,6 @@ header {
       </header>
       <a href="about.html">About Us</a>
       <main>
-        <div class="container-item" id="school-history">
-          <h2>School History</h2>
-          <p>Insert school history here</p>
-        </div>
         <div class="container-item" id="mission-statements">
           <h2>Mission Statements</h2>
           <p>Insert school mission statements here</p>
@@ -51,16 +22,24 @@ header {
         <div class="container-item" id="academics">
           <h2>Academics</h2>
           <p>Insert academic information here</p>
+          <a href="academics.html">Academics</a>
         </div>
         <div class="container-item" id="announcements">
           <h2>Announcements</h2>
           <p>Insert announcements here</p>
+          <a href="blog.html">Announcements</a>
         </div>
       </main>
       <footer>
         <button submit="#">Back To Top</button>
       </footer>
     </div>
+
+    <!-- <div class="container-item" id="school-history">
+        <h2>School History</h2>
+        <p>Insert school history here</p>
+      </div>
+       -->
   </body>
 </html>
  

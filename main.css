@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  div {
+    border: 2px solid black;
+  }
+  .card {
+    margin: 2 auto;
+  }
+  main div {
+    height: 30vh;
+  }

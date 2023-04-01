@@ -2,19 +2,26 @@ body {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    color: red;
   }
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-/*   div {
-    border: 2px solid black;
-  } */
-  .card {
+header {
+  padding: 20% 0 0;
+  font-size: 1.5rem; 
+  height: 50vh;
+}
+h1, h2 {
+ color: rgb(87, 0, 0);
+}
+main {
+      display: grid;
+      grid-template-columns: 1fr;
+}
+div {
+  border: 2px solid black;
+}
+.card {
     margin: 2 auto;
-  }
-  main div {
-    height: 30vh;
-    color: #000;
-  }
+}
+main div {
+  height: 30vh;
+}
+  

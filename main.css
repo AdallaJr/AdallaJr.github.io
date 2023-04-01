@@ -15,9 +15,9 @@ main {
       display: grid;
       grid-template-columns: 1fr;
 }
-div {
+/* div {
   border: 2px solid black;
-}
+} */
 .card {
     margin: 2 auto;
 }
